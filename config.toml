@@ -1,6 +1,7 @@
 baseURL = "https://ianrusseladem.com"
 title = "Home"
 languageCode = "en"
+theme = "hugo.386"
 DefaultContentLanguage = "en" # Change this to change the site's language
 
 preserveTaxonomyNames = true
