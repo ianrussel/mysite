@@ -1,0 +1,61 @@
+{{ define "main" }}
+
+<div class="row-fluid navmargin">
+    <div class="page-header">
+        <h1>{{ .Site.Params.mainpagetitle }}</h1>
+    </div>
+</div>
+
+<div class="row-fluid">
+    <div class="span9 bs-docs-sidebar">
+        <p class="lead">{{ .Site.Params.mainpagesubtitle }}</p>
+        <p></p>
+        <p>{{ .Site.Params.mainpagedesc }}</p>
+        <p></p>
+        <hr class="soften">
+        <p></p>
+    </div>
+
+    <div class="span3 bs-docs-sidebar">
+        <h1>Stacks</h1>
+        <ul class="nav nav-list bs-docs-sidenav">
+            <li style="color:black">Python</li>
+            <li style="color:black">Php</li>
+            <li style="color:black">Javascript</li>
+            <li style="color:black">Go</li>
+        </ul>
+        <p></p>
+        <h1>Frameworks</h1>
+        <ul class="nav nav-list bs-docs-sidenav">
+            <li style="color:black">VueJS</li>
+            <li style="color:black">ReactJS</li>
+            <li style="color:black">Laravel</li>
+            <li style="color:black">Django</li>
+            <li style="color:black">Hugo</li>
+        </ul>
+        <p></p>
+        <h1>Devops</h1>
+        <ul class="nav nav-list bs-docs-sidenav">
+            <li style="color:black">Docker</li>
+            <li style="color:black">Ansible</li>
+            <li style="color:black">Gitlab ci</li>
+            <li style="color:black">Virtual Box</li>
+            <li style="color:black">Vagrant</li>
+        </ul>
+        <p></p>
+        <h1>OS</h1>
+        <ul class="nav nav-list bs-docs-sidenav">
+            <li style="color:black">Ubuntu </li>
+            <li style="color:black">Windows 10</li>
+        </ul>
+        <p></p>
+        <h1>Cloud Platform</h1>
+        <ul class="nav nav-list bs-docs-sidenav">
+            <li style="color:black">AWS </li>
+            <li style="color:black">Heroku</li>
+        </ul>
+        <p></p>
+    </div>
+</div>
+
+{{ end }}

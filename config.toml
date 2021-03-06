@@ -1,0 +1,85 @@
+baseURL = "https://ianrusseladem.com"
+title = "Home"
+languageCode = "en"
+DefaultContentLanguage = "en" # Change this to change the site's language
+
+preserveTaxonomyNames = true
+
+[params]
+    # The name to display as main title in the home page
+    mainpagetitle = "Ian Russel Adem"
+
+    # The subtitle to display under the title in the home page
+    mainpagesubtitle = "Welcome to the early 90s!" 
+
+    # The description of your website. It will be displayed in the home page
+    mainpagedesc = "I am a software developer with more than 6 years of experience. Well versed in OOP architecture"
+
+    # The name to display in the copyright section in the footer
+    copyrightname = "Ian Russel Adem"
+
+    # The url to use as link in the copyright name in the footer. Leave empty to use none.
+    copyrighturl = ""
+
+   
+    # Urls for social networks
+    facebook = "https://www.facebook.com/ianrussel.adem.31"
+    linkedin = "https://www.linkedin.com/in/ian-russel-adem-6a4b71177/"
+    github = "https://github.com/ianrussel"
+
+
+    # Enables or disables the loading animations. false activates them. Default is false.
+    loadfastload = false
+
+    # Sets the speed for the page loading effect. Default is 1.0.
+    loadspeedfactor = 1.0
+
+    # Enables or disables the second flyby cursor. Default is false.
+    loadonepass = false
+
+[params.copyright]
+    name = "Ian Russel Adem"
+
+   
+
+[menu]
+  # This displays buttons in the navbar to access your contents
+  [[menu.main]]
+    identifier = "about" # An unique identifier for the button
+    name = "About"       # A display name for the button
+    url = "/"      # The path to the content. It can lead to a single page (like here)
+    weight = 10          # A number to order the buttons in the navbar
+
+  
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+
+[privacy]
+
+  [privacy.vimeo]
+    disabled = false
+    simple = true
+
+  [privacy.twitter]
+    disabled = false
+    enableDNT = true
+    simple = true
+
+  [privacy.instagram]
+    disabled = false
+    simple = true
+
+  [privacy.youtube]
+    disabled = false
+    privacyEnhanced = true
+
+[services]
+
+  [services.instagram]
+    disableInlineCSS = true
+
+  [services.twitter]
+    disableInlineCSS = true
