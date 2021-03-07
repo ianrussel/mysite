@@ -1,5 +1,5 @@
 baseURL = "https://ianrusseladem.com"
-title = "Home"
+title = "Ian Russel Adem"
 languageCode = "en"
 theme = "hugo.386"
 DefaultContentLanguage = "en" # Change this to change the site's language
