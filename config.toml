@@ -1,4 +1,5 @@
 baseURL = "https://ianrusseladem.com"
+#baseURL = "http://localhost:36755"
 title = "Ian Russel Adem"
 languageCode = "en"
 theme = "hugo.386"
