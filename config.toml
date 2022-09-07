@@ -15,7 +15,7 @@ preserveTaxonomyNames = true
     mainpagesubtitle = "Welcome to the early 90s!" 
 
     # The description of your website. It will be displayed in the home page
-    mainpagedesc = "I am a software developer with more than 6 years of experience. Well versed in OOP architecture"
+    mainpagedesc = "I am a software developer with more than 6 years of experience. Well versed in OOP architecture, experience in building apps with Amazon Sellingpartner and Amazon Advertising APIS, web scraping with Python"
 
     # The name to display in the copyright section in the footer
     copyrightname = "Ian Russel Adem"
