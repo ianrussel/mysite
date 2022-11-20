@@ -8,7 +8,7 @@ DefaultContentLanguage = "en" # Change this to change the site's language
 preserveTaxonomyNames = true
 
 [params]
-    google_analytics_id="G-K8C29Z7Q33"
+    # google_analytics_id="G-K8C29Z7Q33"
     # The name to display as main title in the home page
     mainpagetitle = "Ian Russel Adem"
 
